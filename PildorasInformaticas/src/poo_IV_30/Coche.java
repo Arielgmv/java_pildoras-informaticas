@@ -8,8 +8,8 @@ public class Coche {
 	private int peso;
 	private int peso_plataforma;
 	
-	//propiedades que pueden variar, estas propiedades deberán encapsularse (private)
-	//para este ejemplo se dejo así
+	//propiedades que pueden variar, estas propiedades deberÃ¡n encapsularse (private)
+	//para este ejemplo se dejo asÃ­
 	String color;
 	int peso_total;
 	boolean asientos_cuero, climatizador;
@@ -23,14 +23,20 @@ public class Coche {
 		peso_plataforma=500;
 	}
 	
-	//método tipo setter, encargado de modificar el valor de una propiedad
-	//void indica que el método no devuelve ningún valor
+	//mÃ©todo tipo setter, encargado de modificar el valor de una propiedad
+	//void indica que el mÃ©todo no devuelve ningÃºn valor
 	public void establece_color(){
 		color="azul";
 	}
+	public void establece_peso(){
+		peso_total=peso+peso_plataforma;
+	}
 	
-	//método tipo getter
+	//mÃ©todo tipo getter
 	public String dime_color(){
 		return "El color del coche es: " + color;
+	}
+	public String dime_peso(){
+		return "El peso total del coche es:"+peso_total;
 	}
 }

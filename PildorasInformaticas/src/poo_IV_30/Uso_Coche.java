@@ -6,5 +6,7 @@ public class Uso_Coche {
 		Coche micoche = new Coche();
 		micoche.establece_color();
 		System.out.println(micoche.dime_color());
+		micoche.establece_peso();
+		System.out.println(micoche.dime_peso());
 	}
 }
