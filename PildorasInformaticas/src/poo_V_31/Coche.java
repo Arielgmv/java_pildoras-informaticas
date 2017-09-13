@@ -23,13 +23,13 @@ public class Coche {
 	
 	//get
 	public String dime_datos_generales(){
-		return "La plataforma del vehículo tiene: " + ruedas + " ruedas" + 
+		return "La plataforma del vehiculo tiene: " + ruedas + " ruedas" + 
 		". Mide " + largo/1000 + " metros, con un ancho de " + ancho + 
 		" cm y un peso de plataforma de " + peso_plataforma + " Kg.";
 	}
 	
 	//set
-	//colocamos un parámetro o argumento en los paréntesis (zona de parámetros)
+	//colocamos un parametro o argumento en los parentesis (zona de parametros)
 	public void establece_color(String color_coche){
 		color=color_coche;
 	}
