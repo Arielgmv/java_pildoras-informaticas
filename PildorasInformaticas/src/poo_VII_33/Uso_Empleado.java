@@ -12,7 +12,7 @@ public class Uso_Empleado {
 }
 
 class Empleado{
-	//constructor que recibe parámetros o argumentos
+	//constructor que recibe parametros o argumentos
 	public Empleado(String nom, double sue, int agno, int mes, int dia){
 		
 	}

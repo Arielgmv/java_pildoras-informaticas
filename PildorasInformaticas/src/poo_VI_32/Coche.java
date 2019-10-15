@@ -6,8 +6,7 @@ public class Coche {
 	private int ancho;
 	private int motor;
 	private int peso;
-	private int peso_plataforma;
-	
+	private int peso_plataforma;	
 	private String color;
 	private int peso_total;
 	private boolean asientos_cuero, climatizador;

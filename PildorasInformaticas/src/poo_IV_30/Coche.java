@@ -25,11 +25,11 @@ public class Coche {
 	
 	//método tipo setter, encargado de modificar el valor de una propiedad
 	//void indica que el método no devuelve ningún valor
-	public void establece_color(){
-		color="azul";
+	public void establece_color(String color){
+		this.color=color;
 	}
 	public void establece_peso(){
-		peso_total=peso+peso_plataforma;
+		this.peso_total=peso+peso_plataforma;
 	}
 	
 	//método tipo getter

@@ -6,8 +6,7 @@ public class Coche {
 	private int ancho;
 	private int motor;
 	private int peso;
-	private int peso_plataforma;
-	
+	private int peso_plataforma;	
 	private String color;
 	private int peso_total;
 	private boolean asientos_cuero, climatizador;
@@ -31,7 +30,7 @@ public class Coche {
 	//set
 	//colocamos un parametro o argumento en los parentesis (zona de parametros)
 	public void establece_color(String color_coche){
-		color=color_coche;
+		this.color=color_coche;
 	}
 	
 	//get
