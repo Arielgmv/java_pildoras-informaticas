@@ -26,7 +26,7 @@ class Empleado{
 	}
 	//si solo se conoce nombre
 	public Empleado(String nom){
-		//this est� llamando al otro constructor de la clase y pasarle los par�metros correspondientes 
+		//this esta llamando al otro constructor de la clase y pasarle los parametros correspondientes 
 		this(nom, 30000, 2000, 01, 01);
 	}
 	//getter

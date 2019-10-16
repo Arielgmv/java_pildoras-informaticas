@@ -5,6 +5,7 @@ public class Pruebas {
 		Empleados trabajador1 = new Empleados("Ariel");
 		Empleados trabajador2 = new Empleados("Oswaldo");
 		trabajador1.cambia_seccion("Sistemas");
+		trabajador2.cambia_seccion("Sistemas");
 		//trabajador1.cambia_nombre("Ana");
 		System.out.println(trabajador1.devuelveDatos());
 		System.out.println(trabajador2.devuelveDatos());

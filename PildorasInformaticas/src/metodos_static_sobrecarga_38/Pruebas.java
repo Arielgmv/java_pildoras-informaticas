@@ -7,7 +7,7 @@ public class Pruebas {
 		trabajador1.cambia_seccion("Sistemas");
 		System.out.println(trabajador1.devuelveDatos()+"\n"+
 						trabajador2.devuelveDatos()+"\n"+trabajador3.devuelveDatos());
-		//forma de llamar un método estático
+		//forma de llamar un metodo estatico
 		System.out.println(Empleados.dameIdSiguiente());
 	}
 }
@@ -15,7 +15,7 @@ class Empleados{
 	private final String nombre;
 	private String seccion;
 	private int id;
-	private static int idSiguiente=1;//eclipse pone en  cursiva lo que está con static
+	private static int idSiguiente=1;//eclipse pone en  cursiva lo que esta con static
 	//constructor
 	public Empleados(String nom){
 		nombre=nom;
@@ -31,7 +31,7 @@ class Empleados{
 	public String devuelveDatos(){
 		return "El nombre es: "+nombre+", la seccion es: "+seccion+", y el ID es igual a: "+id;
 	}
-	//método static o método de clase
+	//metodo static o metodo de clase
 	public static String dameIdSiguiente(){
 		return "El IdSiguiente es: "+idSiguiente;
 	}

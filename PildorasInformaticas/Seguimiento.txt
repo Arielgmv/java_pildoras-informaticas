@@ -1,2 +1,5 @@
 Seguimiento Java - Pildoras Informaticas
 PDF - pag. 12 - Video 34
+Miércoles 16/10/19
+pag. 20- Vídeo 40. Herencia I
+
