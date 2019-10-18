@@ -31,7 +31,7 @@ class Empleado2 extends Persona{
 	private Date altaContrato;
 	private int id;
 	private static int idSiguiente=1;
-	//constructor que recibe parámetros o argumentos
+	//constructor que recibe parametros o argumentos
 	public Empleado2(String nom, double sue, int agno, int mes, int dia){
 		super(nom);
 		sueldo=sue;

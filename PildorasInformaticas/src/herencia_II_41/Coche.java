@@ -23,13 +23,13 @@ public class Coche {
 	
 	//get
 	public String dime_datos_generales(){
-		return "La plataforma del vehículo tiene: " + ruedas + " ruedas" + 
+		return "La plataforma del vehiculo tiene: " + ruedas + " ruedas" + 
 		". Mide " + largo/1000 + " metros, con un ancho de " + ancho + 
 		" cm y un peso de plataforma de " + peso_plataforma + " Kg.";
 	}
 	
 	//set
-	//colocamos un parámetro o argumento en los paréntesis (zona de parámetros)
+	//colocamos un parametro o argumento en los parentesis (zona de parametros)
 	public void establece_color(String color_coche){
 		color=color_coche;
 	}
@@ -73,10 +73,10 @@ public class Coche {
 			return "El coche lleva aire acondicionado";
 		}
 	}
-	//setter y getter (no recomendada), se está estableciendo el valor de una variable,
+	//setter y getter (no recomendada), se esta estableciendo el valor de una variable,
 	//y estamos obteniendo un dato (return)
 	public String dime_peso_coche(){
-		//ambito de esta variable es local, sólo se ve en este método
+		//ambito de esta variable es local, solo se ve en este metodo
 		int peso_carroceria=500;
 		peso_total=peso_plataforma+peso_carroceria;
 		if(asientos_cuero==true){

@@ -26,7 +26,7 @@ public class Uso_Empleado {
 	}
 }
 class Empleado{
-	//constructor que recibe parámetros o argumentos
+	//constructor que recibe parametros o argumentos
 	public Empleado(String nom, double sue, int agno, int mes, int dia){
 		nombre=nom;
 		sueldo=sue;
@@ -35,7 +35,7 @@ class Empleado{
 	}
 	//si solo se conoce nombre
 	public Empleado(String nom){
-		//this está llamando al otro constructor de la clase y pasarle los parámetros correspondientes 
+		//this esta llamando al otro constructor de la clase y pasarle los parametros correspondientes 
 		this(nom, 30000, 2000, 01, 01);
 	}
 	//getter
