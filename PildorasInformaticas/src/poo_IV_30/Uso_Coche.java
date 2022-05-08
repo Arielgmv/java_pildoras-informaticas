@@ -8,5 +8,8 @@ public class Uso_Coche {
 		System.out.println(micoche.dime_color());
 		micoche.establece_peso();
 		System.out.println(micoche.dime_peso());
+		micoche.establece_motor(2400);
+		System.out.println(micoche.dime_motor());
+		System.out.println("El auto tiene "+micoche.getruedas()+" ruedas");
 	}
 }

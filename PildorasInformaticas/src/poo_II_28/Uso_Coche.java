@@ -3,7 +3,7 @@ package poo_II_28;
 public class Uso_Coche {
 
 	public static void main(String[] args) {
-		// Ya realizamos la modularización al separar en dos archivos: Coche.java y UsoCoche.java (main)
+		// Ya realizamos la modularizacion al separar en dos archivos: Coche.java y UsoCoche.java (main)
 		Coche renault=new Coche();//instanciar una clase, ejemplar de clase
 		//renault.ruedas=3;
 		
